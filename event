@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T09:47:05.210Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="M4mud_9McLgQaALAD-Hs" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-24T01:30:11.758Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="hBsBgLUtQKjWtRj8UYW_" version="16.5.6" type="github">
   <diagram id="4jQdeicO-KaASgVpH5XD" name="Page-1">
     <mxGraphModel dx="2310" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -387,7 +387,15 @@
         </mxCell>
         <mxCell id="Bu1s1Wa5ENmP1DeHHAz3-94" value="聚合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Bu1s1Wa5ENmP1DeHHAz3-91">
           <mxGeometry x="-0.1826" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bu1s1Wa5ENmP1DeHHAz3-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bu1s1Wa5ENmP1DeHHAz3-84" target="Bu1s1Wa5ENmP1DeHHAz3-153">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-330" y="2380" />
+              <mxPoint x="-200" y="2380" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Bu1s1Wa5ENmP1DeHHAz3-84" value="部门小时表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -408,7 +416,7 @@
           <mxGeometry x="-600" y="2360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bu1s1Wa5ENmP1DeHHAz3-90" value="系统释放部门" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="2425" width="120" height="60" as="geometry" />
+          <mxGeometry x="-500" y="2450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bu1s1Wa5ENmP1DeHHAz3-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bu1s1Wa5ENmP1DeHHAz3-96" target="Bu1s1Wa5ENmP1DeHHAz3-99">
           <mxGeometry relative="1" as="geometry" />
@@ -449,7 +457,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Bu1s1Wa5ENmP1DeHHAz3-99" value="时间推送器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Bu1s1Wa5ENmP1DeHHAz3-99" value="事件推送" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-560" y="2830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bu1s1Wa5ENmP1DeHHAz3-104" value="事件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -489,7 +497,7 @@
         <mxCell id="Bu1s1Wa5ENmP1DeHHAz3-140" value="持久化" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Bu1s1Wa5ENmP1DeHHAz3-117" target="Bu1s1Wa5ENmP1DeHHAz3-128">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Bu1s1Wa5ENmP1DeHHAz3-117" value="定时任务 小时" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Bu1s1Wa5ENmP1DeHHAz3-117" value="定时任务 小时/天" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-263" y="3340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bu1s1Wa5ENmP1DeHHAz3-128" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -521,6 +529,9 @@
         </mxCell>
         <mxCell id="Bu1s1Wa5ENmP1DeHHAz3-150" value="主动释放" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-793" y="2250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bu1s1Wa5ENmP1DeHHAz3-153" value="主管释放部门" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-263" y="2440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
